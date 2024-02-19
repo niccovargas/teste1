@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/SUPPERPROJETOS"
+		},
+		{
+			"path": "../petshop_faltas"
+		},
+		{
+			"path": "../textAnalysis"
+		},
+		{
+			"path": "../../../../xampp/htdocs/senac/PI"
+		},
+		{
+			"path": "../../../../xampp/htdocs/senac/projeto_sitesenac"
+		},
+		{
+			"path": "../exercicio1_interfaces"
+		}
+	],
+	"settings": {}
+}
