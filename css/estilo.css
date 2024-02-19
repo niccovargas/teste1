@@ -1,0 +1,106 @@
+html {
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.login{
+  text-align: center;
+}
+.btnindex {
+  background-color: hsl(36, 100%, 64%);
+  color: rgb(0, 0, 0);
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: larger;
+  border-radius: 22px;
+}
+
+.h1-btn {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(36, 100%, 64%);
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin-left: 100px;
+}
+
+.icone-footer {
+  width: 68px;
+  height: 68px;
+}
+
+.icone-footer-a {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  margin-right: 20px;
+}
+
+.logosenac {
+  width: 330px;
+  height: 140px;
+  margin-right: 5px;
+}
+
+.header-div {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+hr {
+  width: 99%;
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.login-div{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.login{
+  text-align: center;
+}
+
+@media screen and (max-width: 1160px) {
+  #btn-container {
+    display: none;
+  }
+
+  .header-div {
+    justify-content: center;
+  }
+}
+

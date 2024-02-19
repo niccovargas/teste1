@@ -1,0 +1,31 @@
+#RSTI-video {
+    width: 700px;
+    height: 394px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 22px;
+}
+
+#RSTI-videodiv {
+    display: flex;
+    justify-content: center;
+}
+
+#RSTI-texto {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#RSTI-textodiv {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 190, 255);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 22px;
+    margin-top: 12px;
+}

@@ -1,0 +1,56 @@
+.logas{
+    margin-bottom: 5px;
+    color: #666;
+    display: block;
+}
+fieldset {
+    border: 0;
+    text-align: center;
+    font-family: arial;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.botao:hover {
+    background-color: #f4a460;
+}
+.dados {
+    margin-bottom: 15px;
+}
+
+.dados label {
+    margin-bottom: 5px;
+    color: #666;
+    display: block;
+}
+.dados input[type="text"],
+.dados input[type="password"],
+.dados select,
+.dados textarea {
+    padding: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 8px #888;
+    border-radius: 8px;
+}
+.dados input[type="text"],
+.dados input[type="password"],
+.dados select,
+.dados textarea {
+    width: 225px;
+}
+
+.botao,
+select {
+    cursor: pointer;
+}
+.botao {
+    font-size: 24px;
+    background-color: orangered;
+    border: 1;
+    margin-top: 102px;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 8px 10px;
+
+}

@@ -1,0 +1,48 @@
+.localizacao-div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contato {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 22%
+}
+
+#localizacao {
+    border-radius: 22px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 1050px) {
+    .localizacao-div {
+        flex-direction: column-reverse;
+    }
+
+    #localizacao {
+        align-self: center;
+    }
+
+    #contato {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 755px) {
+    #localizacao {
+        height: 280px;
+        width: 360px;
+    }
+
+    hr {
+        width: 98%;
+    }
+    #contato{
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,31 @@
+#aprendiz-video {
+    width: 700px;
+    height: 394px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 22px;
+}
+
+#aprendiz-videodiv {
+    display: flex;
+    justify-content: center;
+}
+
+#aprendiz-texto {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#aprendiz-textodiv {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 190, 255);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 22px;
+    margin-bottom: 12px;
+}

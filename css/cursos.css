@@ -1,0 +1,132 @@
+#cursos-abertos {
+    background-color: rgb(146, 190, 255);
+    ;
+    border-radius: 30px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+
+.titulos-cursos-abertos {
+    text-align: center;
+}
+
+.titulos-cursos {
+    text-align: center;
+    font-size: 200%;
+}
+
+.texto-cursos-abertos {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 120%;
+}
+
+#texto-tec1 {
+    font-size: 138%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+#texto-tec2 {
+    font-size: 138%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+#texto-tec3 {
+    font-size: 138%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+#cursos-img1 {
+    margin-right: 4%;
+    width: 280px;
+    height: 200px;
+    border-radius: 22px;
+}
+
+#cursos-img2 {
+    margin-right: 4%;
+    width: 280px;
+    height: 200px;
+    border-radius: 22px;
+    margin-left: 4%;
+}
+
+#div-cursos1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#div-cursos2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 1154px) {
+    #div-cursos1 {
+        flex-direction: column;
+    }
+
+    #div-cursos2 {
+        flex-direction: column;
+    }
+    #rsti-aprendizagem-div{
+        flex-direction: column;
+    }
+}
+
+#rsti-aprendizagem-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#titulo-jovem-aprendiz {
+    text-align: center;
+}
+
+#texto-jovem-aprendiz {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+}
+
+#titulo-rsti {
+    text-align: center;
+}
+
+#texto-rsti {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+}
+
+#programa-rsti {
+    background-color: rgb(146, 190, 255);
+    margin: 10px;
+    border-radius: 22px;
+}
+
+#jovem-aprendiz {
+    background-color: rgb(146, 190, 255);
+    margin: 10px;
+    border-radius: 22px;
+}
